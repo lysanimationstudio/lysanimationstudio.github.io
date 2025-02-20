@@ -839,6 +839,7 @@ header {
 @media (max-width: 1200px) {
   html {
     font-size: 55%;
+    overflow-x: hidden;
   }
 }
 
@@ -930,6 +931,7 @@ header {
 @media (max-width: 450px) {
   html {
     font-size: 50%;
+    overflow-x: hidden;
   }
 }
 
@@ -1175,31 +1177,43 @@ header {
     flex-direction: column; 
     align-items: center; 
     gap: 80px; 
+    width: 100%; /* Pastikan container menyesuaikan layar */
+    display: flex;
+    justify-content: center; /* Memastikan elemen tetap di tengah */
   }
 
   .container .card {
     margin-top: 50px;
-    margin-left: -450px;
-    
+    margin-left: 0; /* Menghapus margin kiri agar tetap di tengah */
   }
 
-  .service-footer{
-    margin-left: 215px;
+
+  .service-footer {
+    margin-left: 215px; /* Pastikan tetap di tengah */
+    text-align: center;
+    width: 100%;
+    position: relative;
   }
 }
-
 
 @media (max-width: 480px) {
   .container {
     flex-direction: column;
     align-items: center;
-    gap: 25px; 
+    gap: 25px;
+    margin: auto; /* Pastikan container tetap di tengah */
   }
 
   .container .card {
-    margin: 0;
+    margin: 0 auto; /* Pusatkan setiap card */
+  }
+
+  .service-footer {
+    font-size: 1.2rem; /* Sesuaikan ukuran font */
+    padding: 10px 0;
   }
 }
+
 
 /* CONTACT */
 @media (max-width: 768px) {
