@@ -468,7 +468,7 @@ header {
 	align-items: center;
 	flex-wrap: wrap;
 	padding: 30px;
-	margin-top: 8%;
+	margin: 0;
 }
 
 .container {
