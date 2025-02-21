@@ -1287,7 +1287,7 @@ header {
     gap: 20px; 
   }
   .contact-item{
-    width: 140px;
+    width: 120px;
     margin-left: -18px;
     
   }
@@ -1301,7 +1301,7 @@ header {
   }
 
   .contact-item img {
-    width: 140px; 
+    width: 120px; 
   }
 
   .contact-title {
