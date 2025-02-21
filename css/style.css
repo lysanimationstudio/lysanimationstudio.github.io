@@ -1149,10 +1149,8 @@ header {
  .label {
     font-size: 3rem;
     position: absolute;
-    top: 10px; /* Sesuaikan agar berada di atas gambar */
+    top: 2px; /* Sesuaikan agar berada di atas gambar */
     left: 50%;
-    transform: translateX(-50%);
-    background-color: rgba(0, 0, 0, 0.5); /* Opsional: tambahkan latar belakang transparan */
     color: white; /* Warna teks */
     padding: 5px 10px;
     border-radius: 5px;
