@@ -1920,7 +1920,7 @@ header {
   .heading {
     font-size: 2.5rem;
     right: 50%;
-    top: 20%;
+    top: 10%;
     transform: translate(50%, -50%);
     text-align: center;
   }
@@ -1953,7 +1953,7 @@ header {
   .heading {
     font-size: 2rem;
     line-height: 3rem;
-    top: 15%;
+    top: 10%;
   }
 
   .portfolio-box {
@@ -1966,7 +1966,7 @@ header {
   .heading {
     font-size: 1.8rem;
     line-height: 2.5rem;
-    top: 12%;
+    top: 10%;
   }
 
   .portfolio-box {
