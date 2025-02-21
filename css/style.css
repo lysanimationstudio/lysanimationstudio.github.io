@@ -1020,7 +1020,7 @@ header {
 /* Media Query untuk layar max-width: 617px */
 @media screen and (max-width: 617px) {
   .heading {
-    font-size: 2rem;
+    font-size: 2.5rem;
     line-height: 3rem;
     top: 15%;
   }
@@ -1035,7 +1035,7 @@ header {
   .heading {
     font-size: 2.5rem;
     line-height: 2.5rem;
-    top: 12%;
+    top: 14%;
   }
 
   .portfolio-box {
