@@ -1256,11 +1256,11 @@ header {
     max-width: 90%;
     padding: 20;
 	  justify-content: center;
-	  margin-top: 200px;
+	  margin-top: 100px;
   }
 
   .container .card {
-   margin-bottom: 100px; /* Tambahkan jarak antar card */
+   margin-bottom: 400px; /* Tambahkan jarak antar card */
     
   }
 
