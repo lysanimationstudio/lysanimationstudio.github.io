@@ -1033,7 +1033,7 @@ header {
 /* Media Query untuk layar max-width: 450px */
 @media screen and (max-width: 450px) {
   .heading {
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     line-height: 2.5rem;
     top: 12%;
   }
@@ -1046,7 +1046,7 @@ header {
 /* Media Query untuk layar max-width: 365px */
 @media screen and (max-width: 365px) {
   .heading {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     line-height: 2rem;
     top: 10%;
   }
