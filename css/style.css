@@ -1285,9 +1285,10 @@ header {
   .contact-container {
     align-items: center; 
     gap: 20px; 
+	  max-width: 90%;
   }
   .contact-item{
-    width: 150px;
+    width: 100px;
     margin-left: -18px;
     
   }
@@ -1301,7 +1302,7 @@ header {
   }
 
   .contact-item img {
-    width: 150px; 
+    width: 100px; 
   }
 
   .contact-title {
