@@ -1247,6 +1247,7 @@ header {
 
 
 /* SERVICE */
+/* SERVICE */
 @media (max-width: 768px) {
   .container {
     flex-direction: column; 
@@ -1255,8 +1256,8 @@ header {
   }
 
   .container .card {
-    margin-top: 50px;
-    margin-left: -450px;
+   align-items: center;
+   margin: 0;
     
   }
 
