@@ -1147,7 +1147,7 @@ header {
   }
 
   .label {
-    font-size: 2rem;
+    font-size: 3rem;
     top: -330px;
     right: 0;
   }
@@ -1207,7 +1207,7 @@ header {
   }
 
   .label {
-    font-size: 1rem;
+    font-size: 2rem;
     margin-top: 0;
     right: 0;
     padding: 3px 10px;
