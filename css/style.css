@@ -1063,35 +1063,60 @@ header {
 
 
 /* PROGRAM */
-@media screen and (max-width: 1024px) {
+/* Media Query untuk layar max-width: 1200px */
+@media screen and (max-width: 1200px) {
   #program {
-    padding: 30px 10px;
+    padding: 40px 15px;
   }
 
   #program h2 {
-    font-size: 2rem;
-    margin-top: 5%;
-    
+    font-size: 2.5rem;
+    margin-top: 4%;
   }
 
   .program-container {
-    width: 50%;
+    width: 60%;
     flex-direction: column;
     align-items: center;
   }
 
   .program-item {
-    width: 70%;
-    margin-bottom: 15px;
+    width: 75%;
+    margin-bottom: 20px;
   }
 
   .program-character img {
-    width: 250px;
-    margin-top: -8%;
+    width: 280px;
+    margin-top: -5%;
   }
- 
 }
 
+/* Media Query untuk layar max-width: 991px */
+@media screen and (max-width: 991px) {
+  #program {
+    padding: 30px 10px;
+  }
+
+  #program h2 {
+    font-size: 2.2rem;
+    margin-top: 3%;
+  }
+
+  .program-container {
+    width: 70%;
+  }
+
+  .program-item {
+    width: 80%;
+  }
+
+  .program-character img {
+    width: 260px;
+    margin-top: -6%;
+  }
+}
+
+/* Media Query untuk layar max-width: 768px */
 @media screen and (max-width: 768px) {
   #program {
     padding: 20px 5px;
@@ -1100,7 +1125,6 @@ header {
   #program h2 {
     font-size: 2rem;
     margin-top: 2%;
-
   }
 
   .program-container {
@@ -1113,7 +1137,7 @@ header {
   }
 
   .program-item {
-    width: 70%;
+    width: 75%;
     padding: 10px;
   }
 
@@ -1124,7 +1148,7 @@ header {
 
   .label {
     font-size: 1.2rem;
-    top: -240px;
+    top: -330px;
     right: 0;
   }
 
@@ -1132,27 +1156,44 @@ header {
     width: 220px;
     margin-top: -5%;
   }
-  .program-footer{
+
+  .program-footer {
     bottom: 1%;
   }
-
 }
 
+/* Media Query untuk layar max-width: 617px */
+@media screen and (max-width: 617px) {
+  #program h2 {
+    font-size: 1.8rem;
+  }
+
+  .program-container {
+    width: 90%;
+  }
+
+  .program-item {
+    width: 85%;
+  }
+
+  .program-character img {
+    width: 200px;
+  }
+}
+
+/* Media Query untuk layar max-width: 480px */
 @media screen and (max-width: 480px) {
   #program {
     padding: 15px 5px;
   }
 
   #program h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-top: 2%;
   }
 
   .program-container {
     width: 95%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
 
   .program-item {
@@ -1176,10 +1217,33 @@ header {
     width: 180px;
     margin-top: -5%;
   }
-  .program-footer{
+
+  .program-footer {
     bottom: 2%;
   }
 }
+
+/* Media Query untuk layar max-width: 365px */
+@media screen and (max-width: 365px) {
+  #program h2 {
+    font-size: 1.6rem;
+    margin-top: 1%;
+  }
+
+  .program-container {
+    width: 100%;
+  }
+
+  .program-item {
+    width: 90%;
+  }
+
+  .program-character img {
+    width: 160px;
+    margin-top: -3%;
+  }
+}
+
 
 
 /* SERVICE */
