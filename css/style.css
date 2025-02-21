@@ -1257,6 +1257,7 @@ header {
     padding: 20;
 	  justify-content: center;
 	  margin-top: 100px;
+	  mmargin-bottom: 200px;
   }
 
   .container .card {
@@ -1266,7 +1267,7 @@ header {
   }
 
   .service-footer{
-    margin-left: 150px;
+    margin-left: 100px;
   }
 }
 
