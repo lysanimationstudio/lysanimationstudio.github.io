@@ -1260,7 +1260,7 @@ header {
 
   .container .card {
     margin-top: 300px;
-	  max-height: 100vh;
+	  height: 50vh;
     
     
   }
