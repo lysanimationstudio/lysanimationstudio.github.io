@@ -1280,6 +1280,34 @@ header {
   }
 }
 
+/* CONTACT */
+@media (max-width: 768px) {
+  .contact-container {
+    align-items: center; 
+    gap: 20px; 
+  }
+  .contact-item{
+    width: 140px;
+    margin-left: -18px;
+    
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-container {
+    
+    align-items: center;
+    gap: 25px; 
+  }
+
+  .contact-item img {
+    width: 140px; 
+  }
+
+  .contact-title {
+    font-size: 24px; 
+  }
+}
 
 
 /* MORE PORTO */
