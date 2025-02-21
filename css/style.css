@@ -486,6 +486,7 @@ header {
   padding: 50px 0;
   min-height: 100vh;
   position: relative;
+	max-width: 90%;
 }
 
 .heading {
