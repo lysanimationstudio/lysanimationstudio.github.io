@@ -1256,13 +1256,12 @@ header {
     padding: 20;
 	  justify-content: center;
 	  margin-top: 100px;
-	  margin-bottom: 300px;
+	 
   }
 
   .container .card {
    margin-top: 300px
 	  gap: 200px;
-	  height: 50vh;
 	 
     
   }
