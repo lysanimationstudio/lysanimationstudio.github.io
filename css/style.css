@@ -237,246 +237,6 @@ header {
 }
 
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-  border: none;
-  outline: none; 
-  scroll-behavior: smooth;
-  font-family: "Poppins", sans-serif;
-}
-
-html {
-  margin: 0;
-  font-size: 62.5%;
-  height: 100%;
-  overflow-x: hidden;
-  width: 100vh;
-}
-
-section {
-  min-height: 100vh;
-  padding: 10rem 9% 2rem;
-}
-
-body {
-  margin: 0;
-  font-family: 'Poppins', sans-serif;
-}
-
-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1000;
-  padding: 10px 20px;
-  transition: 0.3s ease;
-}
-
-
-/* Navbar */
-.navbar {
-  display: flex;
-  justify-content: center; 
-  align-items: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 40px;
-  padding: 0 30px;
-  box-sizing: border-box;
-  z-index: 1000;
-}
-
-.navbar-container {
-  display: flex;
-  align-items: center;
-  justify-content: center; 
-  width: 100%; 
-}
-
-.navbar a {
-  text-decoration: none;
-  font-size: 1.6rem;
-  color: white;
-  margin: 3rem 4rem;
-  transition: color 0.3s;
-  position: relative;
-}
-
-.navbar a:hover {
-  color: #652f62;
-}
-
-.navbar a.active::after {
-  content: '';
-  position: absolute;
-  bottom: -5px;
-  left: 0;
-  width: 100%;
-  height: 2px;
-  background-color: white;
-}
-
-.logo img {
-  height: 40px; 
-  width: auto; 
-  margin-top: 5rem;
-}
-
-
-.navbar-left,
-.navbar-right {
-  display: flex;
-  align-items: center;
-}
-
-#menu-icon {
-  font-size: 3.6rem;
-  display: none;
-  color: white;
-} 
-
-
-
-/* Home Section */
-#home {
-  position: relative;
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  overflow: hidden;
-  margin: 0;
-}
-
-.video-background {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-}
-
-#bg-video {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.home-content {
-  color: white;
-}
-
-.home-content h1 {
-  font-size: 6.5rem;
-  font-weight: 600;
-  margin-top: -4rem;
-  
-}
-
-.home-content p {
-  font-size: 1.8rem;
-  color: #d3d3d3;
-  margin: 0cm;
-}
-
-.home-content button {
-  margin: 4rem;
-  padding: 10px 20px;
-  font-size: 2rem;
-  font-weight: 600;
-  color: black;
-  background-color: #ffffff;
-  border: none;
-  border-radius: 30px;
-  box-sizing: border-box;
-  cursor: pointer;
-  transition: background-color 0.3s;
-  
-}
-
-.home-content button:hover {
-  background-color: #652f62;
-  color: #fff;
-}
-
-.decoration {
-  position: absolute; 
-  bottom: 0; 
-  left: 0; 
-  width: 100%; 
-  z-index: -1; 
-  pointer-events: none; 
-}
-
-
-
-/* ABOUT */
-#about {
-  position: relative;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-}
-
-.background {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-}
-
-.content {
-  position: relative;
-  z-index: 2;
-  text-align: center;
-  color: white;
-}
-
-.content h1 {
-  font-size: 3rem;
-  margin-bottom: 5rem;
-  margin-top: -90px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
-}
-
-.content p {
-  font-size: 1.2rem;
-  line-height: 1.6;
-  margin-top: -30px;
-  margin-bottom: 180px;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
-  letter-spacing: 1px;
-}
-
-/* footer about */
-.about {
-  font-size: 1.5rem;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-weight: bold;
-  color: #b6b6b6; 
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
-  font-family: Arial, Helvetica, sans-serif;
-  margin-bottom: -200px;
-  
-}
-
-
 /* PORTFOLIO */
 #portfolio {
   background-size: cover;
@@ -486,7 +246,6 @@ header {
   padding: 50px 0;
   min-height: 100vh;
   position: relative;
-	max-width: 90%;
 }
 
 .heading {
@@ -1080,7 +839,6 @@ header {
 @media (max-width: 1200px) {
   html {
     font-size: 55%;
-    overflow-x: hidden;
   }
 }
 
@@ -1172,7 +930,6 @@ header {
 @media (max-width: 450px) {
   html {
     font-size: 50%;
-    overflow-x: hidden;
   }
 }
 
