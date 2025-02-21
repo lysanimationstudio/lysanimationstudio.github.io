@@ -1262,14 +1262,14 @@ header {
   .container .card {
    margin-top: 300px
 	  gap: 200px;
-	  height: 20vh;
+	  height: 50vh;
 	 
     
   }
 
   .service-footer{
-	  bottom: 2%;
-	  top: 5%;
+	  margin-top: 30px;
+	  margin-left: 200px;
   }
 }
 
