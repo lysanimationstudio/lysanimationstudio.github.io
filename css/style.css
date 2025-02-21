@@ -953,7 +953,7 @@ header {
 /* Media Query untuk layar max-width: 1200px */
 @media screen and (max-width: 1200px) {
   .heading {
-    
+    line-height: 1.5;
     right: 15%;
   }
 
@@ -969,7 +969,7 @@ header {
 /* Media Query untuk layar max-width: 991px */
 @media screen and (max-width: 991px) {
   .heading {
-    
+    line-height: 1.5;
     padding-bottom: 200px;
   }
 
@@ -986,7 +986,7 @@ header {
 /* Media Query untuk layar max-width: 768px */
 @media screen and (max-width: 768px) {
   .heading {
-    
+    line-height: 1.5;
     right: 50%;
     top: 20%;
     transform: translate(50%, -50%);
@@ -1020,8 +1020,7 @@ header {
 /* Media Query untuk layar max-width: 617px */
 @media screen and (max-width: 617px) {
   .heading {
-    
-    line-height: 3rem;
+    line-height: 1.5;
     top: 15%;
   }
 
@@ -1033,8 +1032,7 @@ header {
 /* Media Query untuk layar max-width: 450px */
 @media screen and (max-width: 450px) {
   .heading {
-    
-    line-height: 2.5rem;
+    line-height: 1.5;
     top: 14%;
   }
 
@@ -1046,8 +1044,8 @@ header {
 /* Media Query untuk layar max-width: 365px */
 @media screen and (max-width: 365px) {
   .heading {
-   
-    line-height: 2rem;
+   line-height: 1.5;
+    
     top: 10%;
   }
 
