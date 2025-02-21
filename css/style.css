@@ -1247,28 +1247,25 @@ header {
 
 
 /* SERVICE */
-/* SERVICE */
 @media (max-width: 768px) {
   .container {
     flex-direction: column; 
-    align-items: center;  
+    align-items: center; 
+    gap: 80px; 
     max-width: 90%;
     padding: 20;
 	  justify-content: center;
-	  margin-top: 100px;
-	 
+	   margin-top: 100px;
   }
 
   .container .card {
-   margin-top: 300px
-	  gap: 200px;
-	 
+    margin-top: 300px;
+    
     
   }
 
   .service-footer{
-	  margin-top: 30px;
-	  margin-left: 200px;
+    margin-left: 215px;
   }
 }
 
@@ -1284,6 +1281,10 @@ header {
     margin: 0;
   }
 }
+
+
+
+
 
 /* MORE PORTO */
 @media (max-width: 768px) {
