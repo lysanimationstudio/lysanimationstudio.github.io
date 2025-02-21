@@ -16,11 +16,13 @@ html {
   font-size: 62.5%;
   height: 100%;
   overflow-x: hidden;
+	width: 100%;
 }
 
 section {
   min-height: 100vh;
   padding: 10rem 9% 2rem;
+	max-width: 100%;
 }
 
 body {
@@ -855,6 +857,7 @@ header {
 
   section {
     padding: 10rem 3% 2rem;
+	  max-width: 100%;
   }
 
 
