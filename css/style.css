@@ -1257,8 +1257,8 @@ header {
     margin-top: 100px;
     align-items: center;
     justify-content: center; 
-    gap: 500px; /* Jarak antar elemen */
-    width: 100%; /* Memastikan container tetap dalam batas layar */
+    gap: 50px; /* Jarak antar elemen */
+    width: 90%; /* Memastikan container tetap dalam batas layar */
     padding: 20px; /* Memberikan ruang agar tidak terlalu mepet */
   }
 
