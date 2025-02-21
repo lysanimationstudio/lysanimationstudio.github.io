@@ -1884,10 +1884,7 @@ header {
 
 /* Media Query untuk layar max-width: 1200px */
 @media screen and (max-width: 1200px) {
-  .heading {
-    font-size: 3.5rem;
-    right: 15%;
-  }
+  
 
   .portfolio-container {
     gap: 20px;
@@ -1900,10 +1897,7 @@ header {
 
 /* Media Query untuk layar max-width: 991px */
 @media screen and (max-width: 991px) {
-  .heading {
-    font-size: 3rem;
-    right: 10%;
-  }
+  
 
   .portfolio-container {
     flex-wrap: wrap;
@@ -1917,13 +1911,7 @@ header {
 
 /* Media Query untuk layar max-width: 768px */
 @media screen and (max-width: 768px) {
-  .heading {
-    font-size: 2.5rem;
-    right: 50%;
-    top: 20%;
-    transform: translate(50%, -50%);
-    text-align: center;
-  }
+ 
 
   .see-more {
     position: static;
@@ -1950,12 +1938,7 @@ header {
 
 /* Media Query untuk layar max-width: 617px */
 @media screen and (max-width: 617px) {
-  .heading {
-    font-size: 2rem;
-    line-height: 3rem;
-    top: 10%;
-  }
-
+  
   .portfolio-box {
     width: 90%;
   }
@@ -1963,11 +1946,7 @@ header {
 
 /* Media Query untuk layar max-width: 450px */
 @media screen and (max-width: 450px) {
-  .heading {
-    font-size: 1.8rem;
-    line-height: 2.5rem;
-    top: 10%;
-  }
+  
 
   .portfolio-box {
     width: 95%;
@@ -1976,11 +1955,7 @@ header {
 
 /* Media Query untuk layar max-width: 365px */
 @media screen and (max-width: 365px) {
-  .heading {
-    font-size: 1.5rem;
-    line-height: 2rem;
-    top: 10%;
-  }
+ 
 
   .portfolio-box {
     width: 100%;
