@@ -1247,47 +1247,41 @@ header {
 
 
 /* SERVICE */
-/* SERVICE - Media Query */
-
-/* Untuk layar dengan lebar maksimum 768px */
+/* SERVICE */
 @media (max-width: 768px) {
   .container {
-    display: flex;
-    flex-direction: column;
-    margin-top: 100px;
-    align-items: center;
-    justify-content: center; 
-    gap: 50px; /* Jarak antar elemen */
-    width: 90%; /* Memastikan container tetap dalam batas layar */
-    padding: 20px; /* Memberikan ruang agar tidak terlalu mepet */
+    flex-direction: column; 
+    align-items: center; 
+    gap: 80px; 
+    max-width: 90%;
+    padding: 20;
+	  justify-content: center;
+	  margin: 0 auto;
   }
 
   .container .card {
-    width: 90%; /* Agar card tidak terlalu besar */
-    max-width: 100%; /* Membatasi ukuran maksimal */
-    margin: 0 auto; /* Pusatkan elemen */
+    margin-top: 50px;
+    margin-left: -450px;
+    
   }
 
-  .service-footer {
-    text-align: center; /* Agar elemen footer tetap rapi */
-   margin-top: 30px;
-   margin-left: 230px;
+  .service-footer{
+    margin-left: 215px;
   }
 }
 
-/* Untuk layar dengan lebar maksimum 480px */
+
 @media (max-width: 480px) {
   .container {
+    flex-direction: column;
+    align-items: center;
     gap: 25px; 
   }
 
   .container .card {
-    width: 95%; /* Lebih kecil agar pas di layar HP */
-    max-width: 350px;
-    margin: 0 auto;
+    margin: 0;
   }
 }
-
 
 /* MORE PORTO */
 @media (max-width: 768px) {
