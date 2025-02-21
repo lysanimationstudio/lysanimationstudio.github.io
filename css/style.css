@@ -1257,14 +1257,14 @@ header {
     margin-top: 100px;
     align-items: center;
     justify-content: center; 
-    gap: 200px; /* Jarak antar elemen */
+    gap: 500px; /* Jarak antar elemen */
     width: 100%; /* Memastikan container tetap dalam batas layar */
     padding: 20px; /* Memberikan ruang agar tidak terlalu mepet */
   }
 
   .container .card {
     width: 90%; /* Agar card tidak terlalu besar */
-    max-width: 190px; /* Membatasi ukuran maksimal */
+    max-width: 100%; /* Membatasi ukuran maksimal */
     margin: 0 auto; /* Pusatkan elemen */
   }
 
