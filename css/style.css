@@ -1260,13 +1260,10 @@ header {
 
   .container .card {
     margin-top: 300px;
-	  max-height: 100vh;
-    
-    
   }
 
   .service-footer{
-    margin-left: 200px;
+    margin-left: 215px;
   }
 }
 
