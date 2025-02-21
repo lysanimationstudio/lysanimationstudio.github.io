@@ -1261,13 +1261,15 @@ header {
   }
 
   .container .card {
-   margin-top: 200px
+   margin-top: 300px
 	  gap: 100px;
+	  max-height: 95%
     
   }
 
   .service-footer{
-    margin-left: 100px;
+	  margin-bottom: 30px;
+    margin-left: 200px;
   }
 }
 
