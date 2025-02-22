@@ -2114,7 +2114,7 @@ header {
  
  
 @media (max-width: 480px) {
-#program {
+  #program {
   padding: 15px 5px;
 }
 
@@ -2170,31 +2170,30 @@ header {
   font-size: 24px; 
 }
 #more-portfolio .container {
-    max-width: 95%; 
-    padding: 10px;
-  }
-
-  .portfolio-grid {
-    grid-template-columns: repeat(1, 1fr);
-    max-width: 100%;
-    margin: 0 auto;
-    justify-content: center;
-    text-align: center;
-  }
-
-  .portfolio-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .portfolio-item img,
-  .portfolio-video video {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-  }
+  max-width: 95%; 
+  padding: 10px;
 }
+
+.portfolio-grid {
+  grid-template-columns: repeat(1, 1fr);
+  max-width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.portfolio-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-item img,
+.portfolio-video video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}}
    
   
