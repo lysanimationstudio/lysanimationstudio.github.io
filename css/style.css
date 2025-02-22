@@ -1854,11 +1854,9 @@ header {
     margin-top: 4rem;
   }
 
- 
   .see-more {
     position: static;
     margin-top: 50px;
-    margin-bottom: 50px;
     text-align: center;
   }
 
@@ -1872,9 +1870,7 @@ header {
     align-items: center;
     margin-left: 0;
   }
-  .heading{
-    margin-top: 15%
-  }
+
   .portfolio-box {
     width: 80%;
     max-width: 300px;
@@ -1884,7 +1880,7 @@ header {
   }
 
   #program h2 {
-    font-size: 3rem;
+    font-size: 2rem;
     margin-top: 2%;
   }
 
@@ -1995,12 +1991,12 @@ header {
 
   .portfolio-container {
     gap: 20px;
-    margin-right: 400px;
+  
+   
   }
 
   .portfolio-box {
     width: 220px;
-    
   }
 }
 
@@ -2035,7 +2031,6 @@ header {
 /* Media Query untuk layar max-width: 450px */
 @media screen and (max-width: 450px) {
   
-
   .portfolio-box {
     width: 95%;
   }
@@ -2068,28 +2063,22 @@ header {
   #program h2 {
     font-size: 2.5rem;
     margin-top: 4%;
-    margin-bottom: -100px;
   }
 
   .program-container {
-    width: 50%;
+    width: 60%;
     flex-direction: column;
     align-items: center;
-    margin-top: 150px;
   }
 
   .program-item {
     width: 75%;
-    margin-bottom: 40px;
-   margin-top: 150px;
+    margin-bottom: 20px;
   }
 
   .program-character img {
     width: 280px;
-    top: 10%;
-  }
-  .label{
-    top: -310px;
+    margin-top: -5%;
   }
 }
 
@@ -2175,6 +2164,7 @@ header {
     bottom: 2%;
   }
 }
+
 /* Media Query untuk layar max-width: 365px */
 @media screen and (max-width: 365px) {
   #program h2 {
@@ -2201,14 +2191,7 @@ header {
 /* SERVICE */
 
 
-@media (max-width: 1200px){
-  .service-footer{
-    margin-left: 400px;
-  }
-  .container {
-   
-    right: 5%;
-}}
+
 @media (max-width: 480px) {
   .container {
     flex-direction: column;
@@ -2219,6 +2202,12 @@ header {
   .container .card {
     margin: 0;
   }
+}
+
+/* CONTACT */
+
+
+@media (max-width: 480px) {
   .contact-container {
     
     align-items: center;
@@ -2233,10 +2222,6 @@ header {
     font-size: 24px; 
   }
 }
-
-
-
-
 
 
 
